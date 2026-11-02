@@ -1,16 +1,44 @@
-## Hi there 👋
+# Hi, I'm Jannat Ara Nishat 👋
 
-<!--
-**n6jannat/n6jannat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**DevOps Engineer** based in Dhaka, Bangladesh, with 8 years in IT infrastructure, 5 of them in DevOps.
 
-Here are some ideas to get you started:
+I keep production systems running. My strongest skills are production troubleshooting, root cause analysis and monitoring. I build CI/CD pipelines, automate infrastructure with Ansible, and set up monitoring for large server fleets.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔧 Currently: running and automating a large enterprise ERP platform in production
+- 📈 Monitoring: 100+ servers and 20+ services with Uptime Kuma, Alertmanager, Grafana and ELK
+- 🤖 Exploring: AI-assisted DevOps
+- 📜 CCNA certified · CKA in progress
+- 🌍 Open to remote roles and relocation
+
+---
+
+## 🛠️ Tech Stack
+
+| Area | Tools |
+|---|---|
+| Containers & Orchestration | Docker, Docker Compose, Kubernetes, Argo CD |
+| CI/CD & Automation | GitLab CI/CD, GitHub Actions, Ansible, Bash |
+| Infrastructure as Code | Terraform |
+| Monitoring & Logging | Grafana, Alertmanager, Uptime Kuma, ELK Stack |
+| Messaging & Data | Kafka, RabbitMQ, Redis, PostgreSQL, MongoDB |
+| Cloud & Infra | AWS, GCP, Linux, VMware, HAProxy |
+
+---
+
+## 🚀 Featured Projects
+
+### [docker-cicd-app](https://github.com/n6jannat/docker-cicd-app)
+A dynamic GitHub Actions CI/CD pipeline. A planning step decides from each event what to test, build and deploy: pull requests are only tested, `main` deploys to staging, and version tags deploy to production. The pipeline builds multi-arch Docker images, pushes them to GHCR, checks health after each deploy and rolls back automatically if the check fails.
+
+`GitHub Actions` `Docker` `GHCR` `Bash`
+
+### [terraform-aws-infra](https://github.com/n6jannat/terraform-aws-infra)
+Modular Terraform for an AWS web stack: a multi-AZ VPC, a hardened EC2 web server, and remote state in S3 with DynamoDB locking. CI runs fmt, validate and tflint, then a full apply and destroy against LocalStack, so the stack is tested without an AWS account.
+
+`Terraform` `AWS` `LocalStack` `GitHub Actions`
+
+---
+
+## 📫 Connect
+
+[LinkedIn](https://www.linkedin.com/in/jannataranishat/) · n6jannat@gmail.com
