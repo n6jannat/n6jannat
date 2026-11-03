@@ -37,6 +37,16 @@ Modular Terraform for an AWS web stack: a multi-AZ VPC, a hardened EC2 web serve
 
 `Terraform` `AWS` `LocalStack` `GitHub Actions`
 
+### [uptime-kuma-setup](https://github.com/n6jannat/uptime-kuma-setup)
+Production-ready Uptime Kuma monitoring deployed with Docker Compose. Optional automatic HTTPS through Caddy and Let's Encrypt, a one-command installer, rotating backups, and a step-by-step guide covering alerting (email, Slack, Telegram), status pages and push monitors for cron jobs.
+
+`Uptime Kuma` `Docker Compose` `Caddy` `Bash`
+
+### [disk-alert](https://github.com/n6jannat/disk-alert)
+A dependency-free Bash disk usage monitor for cron. It applies warning and critical thresholds per filesystem, sends alerts by email or Slack/Discord/Teams webhook, and returns Nagios-style exit codes so it plugs into existing monitoring. CI runs ShellCheck and tests on every push.
+
+`Bash` `Linux` `Monitoring` `GitHub Actions`
+
 ---
 
 ## 📫 Connect
